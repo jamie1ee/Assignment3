@@ -8,6 +8,28 @@
   left: 30px;
 }
 
+.headingButton {
+  font-size: 35px;
+  font-family: "Arimo", sans serif;
+  color: #2d2d2d;
+  font-weight: 700;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.headingButton {
+  font-size: 35px;
+  font-family: "Arimo", sans serif;
+  color: #2d2d2d;
+  font-weight: 700;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
 .pictext {
   font-size: 55px;
   font-family: 'Arimo', sans serif;
@@ -24,14 +46,30 @@
 .condo {
   position: absolute;
   height: auto;
-  width: 100%;
+  width: 99%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 60px; 
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .works {
+  border: none;
+  background-color: inherit;
+  font-weight: 700;
+  color: #474747;
+  top: 50px;
+  font-family:'Arimo';
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 250px;
+}
+
+.works:hover {
   border: none;
   background-color: inherit;
   font-weight: 700;
@@ -43,12 +81,28 @@
   display: inline-block;
   position: absolute;
   right: 250px;
+  transition-duration: 4ms;
 }
+
+.worksClick {
+  border: none;
+  background-color: inherit;
+  font-weight: 700;
+  color: #000000;
+  top: 50px;
+  font-family:'Arimo';
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  right: 250px;
+pointer-events: none;
+}
+
 .commissions {
   border: none;
   background: none;
   font-weight: 700;
-  color: #000000;
+  color: #474747;
   font-family: 'Arimo';
   font-size: 20px;
   cursor: pointer;
@@ -57,6 +111,34 @@
   right: 50px;
 }
 
+.commissions:hover {
+  border: none;
+  background-color: inherit;
+  font-weight: 700;
+  color: #000000;
+  top: 50px;
+  font-family:'Arimo';
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+  transition-duration: 4ms;
+}
+
+.commissionsClick {
+  border: none;
+  background-color: inherit;
+  font-weight: 700;
+  color: #000000;
+  top: 50px;
+  font-family:'Arimo';
+  font-size: 20px;
+  pointer-events: none;
+  display: inline-block;
+  position: absolute;
+  right: 50px;
+}
 
 .bioPic
 {
@@ -69,11 +151,11 @@
 .bioText
 {
   font-size: 20px;
-  font-family: "Petrona", serif;
+  font-family: "Hind Vadodara", sans-serif;
   color: #2d2d2d;
-  font-weight: 400;
+  font-weight: 300;
   position: absolute;
-  top: 1270px;
+  top: 1235px;
   left: 760px;
   max-width: 600px;
   text-align: left;
@@ -82,21 +164,22 @@
 .bioText2
 {
   font-size: 20px;
-  font-family: "Petrona", serif;
+  font-family: "Hind Vadodara", sans-serif;
   color: #2d2d2d;
-  font-weight: 400;
+  font-weight: 300;
   position: absolute;
-  top: 1750px;
-  right: 760px;
+  top: 1685px;
+  left: 350px;
   max-width: 600px;
   text-align: right;
 }
 
+
 .bioPic2
 {
   position: absolute;
-  width: 600px;
-  top: 1700px;
+  max-width: 600px;
+  top: 1660px;
   right: 100px;
 }
 
@@ -109,12 +192,458 @@
   font-weight: 700;
   position: relative;
   max-width: 1300px;
-  top: 2050px;
+  top: 2010px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  padding-bottom: 50px;
 }
 
+.bioText3
+{
+  font-size: 20px;
+  font-family: "Hind Vadodara", sans-serif;
+  color: #2d2d2d;
+  font-weight: 300;
+  position: absolute;
+  top: 2390px;
+  left: 880px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.bioPic3
+{
+  position: absolute;
+  max-width: 720px;
+  top: 2310px;
+  left: 100px;
+  padding-bottom: 50px;
+}
+
+.container100
+{
+max-width: 100vw;
+}
+
+
+
+
+.painting1
+{
+position: absolute;
+top: 175px;
+height: auto;
+left: 0px;
+padding-left: 5vw;
+max-width: 26.6vw;
+}
+
+
+.painting1:hover
+{
+position: absolute;
+top: 175px;
+height: auto;
+left: 0px;
+padding-left: 5vw;
+max-width: 26.6vw;
+cursor: pointer;
+}
+
+.image-link {
+  /* Styles for the link */
+  display: inline-block;
+  text-decoration: none; /* Removes the underline from the link */
+}
+
+
+
+
+.painting1Date
+{
+  position: absolute;
+  top: 545px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting1Name
+{
+  position: absolute;
+  top: 570px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting2
+{
+position: absolute;
+top: 175px;
+height: auto;
+left: 0px;
+padding-left: 36.6vw;
+max-width: 26.6vw;
+}
+
+.painting2Date
+{
+  position: absolute;
+  top: 630px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting2Name
+{
+  position: absolute;
+  top: 655px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+.painting3Date
+{
+  position: absolute;
+  top: 720px;
+  padding-left: 67.2vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting3Name
+{
+  position: absolute;
+  top: 745px;
+  padding-left: 67.2vw;
+  padding-bottom: 26.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+.painting3
+{
+position: absolute;
+top: 175px;
+height: auto;
+left: 0px;
+padding-left: 67.2vw;
+max-width: 26.6vw;
+}
+
+.painting4
+{
+position: absolute;
+top: 705px;
+height: auto;
+left: 0px;
+padding-left: 5vw;
+max-width: 26.6vw;
+}
+
+.painting4Date
+{
+  position: absolute;
+  top: 1245px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting4Name
+{
+  position: absolute;
+  top: 1270px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting5
+{
+position: absolute;
+top: 790px;
+height: auto;
+left: 0px;
+padding-left: 36.6vw;
+max-width: 26.6vw;
+}
+
+.painting5Date
+{
+  position: absolute;
+  top: 1330px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting5Name
+{
+  position: absolute;
+  top: 1355px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting6Date
+{
+  position: absolute;
+  top: 1340px;
+  padding-left: 67.2vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting6Name
+{
+  position: absolute;
+  top: 1360px;
+  padding-left: 67.2vw;
+  padding-bottom: 26.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting6
+{
+position: absolute;
+top: 880px;
+height: auto;
+left: 0px;
+padding-left: 67.2vw;
+max-width: 26.6vw;
+}
+
+
+.painting7
+{
+position: absolute;
+top: 1405px;
+height: auto;
+left: 0px;
+padding-left: 5vw;
+max-width: 26.6vw;
+}
+
+.painting7Date
+{
+  position: absolute;
+  top: 2095px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting7Name
+{
+  position: absolute;
+  top: 2120px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting8
+{
+position: absolute;
+top: 1465px;
+height: auto;
+left: 0px;
+padding-left: 36.6vw;
+max-width: 26.6vw;
+}
+
+.painting8Date
+{
+  position: absolute;
+  top: 1790px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting8Name
+{
+  position: absolute;
+  top: 1815px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting9Date
+{
+  position: absolute;
+  top: 1835px;
+  padding-left: 67.2vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting9Name
+{
+  position: absolute;
+  top: 1860px;
+  padding-left: 67.2vw;
+  padding-bottom: 26.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.painting9
+{
+position: absolute;
+top: 1500px;
+height: auto;
+left: 0px;
+padding-left: 67.2vw;
+width: 26.6vw;
+}
+
+.painting10
+{
+position: absolute;
+top: 2260px;
+height: auto;
+left: 0px;
+padding-left: 5vw;
+max-width: 26.6vw;
+}
+
+.painting10Date
+{
+  position: absolute;
+  top: 2595px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.painting10Name
+{
+  position: absolute;
+  top: 2620px;
+  padding-left: 5vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.painting11
+{
+position: absolute;
+top: 1955px;
+height: auto;
+left: 0px;
+padding-left: 36.6vw;
+max-width: 26.6vw;
+}
+
+.painting11Date
+{
+  position: absolute;
+  top: 2560px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.painting11Name
+{
+  position: absolute;
+  top: 2585px;
+  padding-left: 36.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.painting12Date
+{
+  position: absolute;
+  top: 2520px;
+  padding-left: 67.2vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 400px;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.painting12Name
+{
+  position: absolute;
+  top: 2545px;
+  padding-left: 67.2vw;
+  padding-bottom: 26.6vw;
+  font-family: 'Hind Vadodara';
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  padding-bottom: 70px;
+}
+
+.painting12
+{
+position: absolute;
+top: 1995px;
+height: auto;
+left: 0px;
+padding-left: 67.2vw;
+width: 26.6vw;
+}
 
 
 
