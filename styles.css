@@ -237,6 +237,8 @@ height: auto;
 left: 0px;
 padding-left: 5vw;
 max-width: 26.6vw;
+transition: filter 0.3s ease;
+cursor: pointer;
 }
 
 
@@ -249,13 +251,10 @@ left: 0px;
 padding-left: 5vw;
 max-width: 26.6vw;
 cursor: pointer;
+filter: brightness(50%);
 }
 
-.image-link {
-  /* Styles for the link */
-  display: inline-block;
-  text-decoration: none; /* Removes the underline from the link */
-}
+
 
 
 
